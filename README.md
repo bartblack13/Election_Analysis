@@ -34,6 +34,14 @@ This project is part of my Week 3 DU Coding Bootcamp classwork, and included:
     Winner: Diana DeGette<br />
     Winning Vote Count: 272,892<br />
     Winning Percentage: 73.8%<br />
+    
+See below for pictures of outputs.
+
+**add terminal pic**
+voting results in terminal
+
+**add text file pic**
+voting results saved to text file
 
 ## Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
 
@@ -54,6 +62,8 @@ Many elections, especially at the local level, have propositions that are being 
 This might looke like the following:
 
 **add edited code option2 pic**
+
+Another option might be to combine a for loop, an if statement, and the count function to count all values within a column that are "yes" votes, where: yes = true.  This option would require me to experiment with the script, but in theory should work.
 
 
 
