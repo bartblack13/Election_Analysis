@@ -2,6 +2,18 @@
 python and VS coder
 
 ## Overview of Election Audit: Explain the purpose of this election audit analysis.
+The purpose of this project was to gain familiarity with using Python, an object oriented programming language, to analyze data sets.  For this project, I analyzed a csv file (Election_Results.csv) that contained 369,711 rows of election data, including: ballot ID; county where the vote was cast, and the candidate for whom the vote was cast.  In order to do this, I used VS coder to write and execute my code, to automatically open and analyze my file, and to also automatically save the generated analysis outputs to a text file (election_analysis.txt).  The analysis outputs were also printed to the terminal window in VS Coder, and viewed in the text file window.  Screen shots of both the terminal outputs and the text file windows can be seen below, and the text file is listed in my Election_Analysis repository.
+
+This project is part of my Week 3 DU Coding Bootcamp classwork, and included:
+* Running a Python file in the command line or VS Code;
+* Performing Calculations;
+* Creating and add to a list;
+* Creating and add keys and values to a dictionary;
+* Using decision statements to check a condition;
+* Applying membership and logical operators to decision statements;
+* Using repetition statements to iterate through a list or dictionary;
+* Writing print statements using f-strings, and format objects, like intergers or floating decimals;
+* Opening csv files, and saving outputs to text files
 
 ## Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 * How many votes were cast in this congressional election?<br />
