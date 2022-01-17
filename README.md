@@ -37,17 +37,20 @@ This project is part of my Week 3 DU Coding Bootcamp classwork, and included:
     
 See below for pictures of outputs.
 
-![This is an image](https://github.com/bartblack13/Election_Analysis/blob/main/analysis/election_analysis%20terminal%20view.png)
-voting results printed to terminal
 
-![This is an image](https://github.com/bartblack13/Election_Analysis/blob/main/analysis/election_analysis%20txt_file.write%20view.png)
-voting results saved to text file
+![This is an image](https://github.com/bartblack13/Election_Analysis/blob/main/analysis/election_analysis%20terminal%20view.png)<br /> 
+Figure 1: voting results printed to terminal<br /> <br /> 
+
+
+![This is an image](https://github.com/bartblack13/Election_Analysis/blob/main/analysis/election_analysis%20txt_file.write%20view.png)<br /> 
+Figure 2: voting results saved to text file<br /> <br /> 
 
 ## Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
 
 Although the the script used to generate the above results was written for a specific file with specific variables, if the election commission is interested, the code could be modified to run different data set files.  For example, the code could be modified to ask the user which file should be run, by using the input() function.  Since this might require the user to specify the folder path, indirect or direct, an easier method would be to ask the user for the file name, which would automatically update the file path.  Assuming that the data is in the same format in each file (same columns and same info per column), and assuming that the new files are in the same folder as the initial "election_results" file, the input function would create a new file_to_load variable, and then the f-string function nested in the file path scipt would autoload that file name into the script to open the file.  In the picture below, you can see the old code (commented out in green) and the new code, including the new variable and input function.  The modified code, as shown below was 100% functional and successfully genearated the same data outputs as origincal code. 
 
-![This is an image](https://github.com/bartblack13/Election_Analysis/blob/main/analysis/edited%20code%20option1.png)
+![This is an image](https://github.com/bartblack13/Election_Analysis/blob/main/analysis/edited%20code%20option1.png)<br /> 
+Figure 3:<br /> <br /> 
 
 **old code:**<br /> 
 file_to_load = os.path.join("Resources_mod3", "election_results.csv")
@@ -61,7 +64,8 @@ Many elections, especially at the local level, have propositions that are being 
 
 This might look like the following:
 
-![This is an image](https://github.com/bartblack13/Election_Analysis/blob/main/analysis/edited%20code%20option2.png)
+![This is an image](https://github.com/bartblack13/Election_Analysis/blob/main/analysis/edited%20code%20option2.png)<br /> 
+Figure 4:<br /> <br /> 
 
 Another option might be to combine a for loop, an if statement, and the count function to count all values within a column that are "yes" votes, where: yes = true.  This option would require me to experiment with the script, but in theory should work.
 
