@@ -37,17 +37,17 @@ This project is part of my Week 3 DU Coding Bootcamp classwork, and included:
     
 See below for pictures of outputs.
 
-**add terminal pic**
-voting results in terminal
+![This is an image](https://github.com/bartblack13/Election_Analysis/blob/main/analysis/election_analysis%20terminal%20view.bmp)
+voting results printed to terminal
 
-**add text file pic**
+![This is an image](https://github.com/bartblack13/Election_Analysis/blob/main/analysis/election_analysis%20txt_file.write%20view.bmp)
 voting results saved to text file
 
 ## Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
 
 Although the the script used to generate the above results was written for a specific file with specific variables, if the election commission is interested, the code could be modified to run different data set files.  For example, the code could be modified to ask the user which file should be run, by using the input() function.  Since this might require the user to specify the folder path, indirect or direct, an easier method would be to ask the user for the file name, which would automatically update the file path.  Assuming that the data is in the same format in each file (same columns and same info per column), and assuming that the new files are in the same folder as the initial "election_results" file, the input function would create a new file_to_load variable, and then the f-string function nested in the file path scipt would autoload that file name into the script to open the file.  In the picture below, you can see the old code (commented out in green) and the new code, including the new variable and input function.  The modified code, as shown below was 100% functional and successfully genearated the same data outputs as origincal code. 
 
-**add edited code option1 pic**
+![This is an image](https://github.com/bartblack13/Election_Analysis/blob/main/analysis/edited%20code%20option1.png)
 
 **old code:**<br /> 
 file_to_load = os.path.join("Resources_mod3", "election_results.csv")
@@ -59,9 +59,9 @@ file_to_load = os.path.join("Resources_mod3", f"{desired_file_to_analyze}.csv")
 
 Many elections, especially at the local level, have propositions that are being voted on, with a simple yes-no vote, which would be included on the same ballot, and listed in its own column in the data set.  Copying the code with updated column index number and new vairable names would allow the new column of info to be analyzed and used to indicate whether or not the proposition passed or failed, for example.  
 
-This might looke like the following:
+This might look like the following:
 
-**add edited code option2 pic**
+![This is an image](https://github.com/bartblack13/Election_Analysis/blob/main/analysis/edited%20code%20option2.png)
 
 Another option might be to combine a for loop, an if statement, and the count function to count all values within a column that are "yes" votes, where: yes = true.  This option would require me to experiment with the script, but in theory should work.
 
