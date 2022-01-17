@@ -37,10 +37,10 @@ This project is part of my Week 3 DU Coding Bootcamp classwork, and included:
     
 See below for pictures of outputs.
 
-![This is an image](https://github.com/bartblack13/Election_Analysis/blob/main/analysis/election_analysis%20terminal%20view.bmp)
+![This is an image](https://github.com/bartblack13/Election_Analysis/blob/main/analysis/election_analysis%20terminal%20view.png)
 voting results printed to terminal
 
-![This is an image](https://github.com/bartblack13/Election_Analysis/blob/main/analysis/election_analysis%20txt_file.write%20view.bmp)
+![This is an image](https://github.com/bartblack13/Election_Analysis/blob/main/analysis/election_analysis%20txt_file.write%20view.png)
 voting results saved to text file
 
 ## Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
